@@ -48,7 +48,8 @@ public class LoginAutomation
 		   driver.findElement(By.linkText("View profile")).click();
 		   
 		   File file = new File("src/main/resources/Files/RadhikaSonar_DataAnalyst.pdf");
-		   driver.findElement(By.id("attachCV")).sendKeys(file.getAbsolutePath());
+		   driver.findElement(By.xpath("//input[@id='attachCV']")).sendKeys(file.getAbsolutePath());
+		   
 		   
 		   
 		   WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));

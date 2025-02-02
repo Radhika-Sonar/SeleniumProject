@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-02T19:18:49 IST" name="Default suite" finished-at="2025-02-02T19:19:01 IST" duration-ms="12190">
+  <suite started-at="2025-02-02T19:37:21 IST" name="Default suite" finished-at="2025-02-02T19:37:34 IST" duration-ms="12173">
     <groups>
     </groups>
-    <test started-at="2025-02-02T19:18:49 IST" name="Default test" finished-at="2025-02-02T19:19:01 IST" duration-ms="12190">
+    <test started-at="2025-02-02T19:37:21 IST" name="Default test" finished-at="2025-02-02T19:37:34 IST" duration-ms="12173">
       <class name="com.qa.Tests.LoginAutomation">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.Tests.LoginAutomation@689604d9]" started-at="2025-02-02T19:18:49 IST" name="setup" finished-at="2025-02-02T19:18:54 IST" duration-ms="4369" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.Tests.LoginAutomation@689604d9]" started-at="2025-02-02T19:37:21 IST" name="setup" finished-at="2025-02-02T19:37:26 IST" duration-ms="5081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginAndupdateResume()[pri:0, instance:com.qa.Tests.LoginAutomation@689604d9]" started-at="2025-02-02T19:18:54 IST" name="LoginAndupdateResume" finished-at="2025-02-02T19:18:58 IST" duration-ms="4418" status="PASS">
+        <test-method signature="LoginAndupdateResume()[pri:0, instance:com.qa.Tests.LoginAutomation@689604d9]" started-at="2025-02-02T19:37:26 IST" name="LoginAndupdateResume" finished-at="2025-02-02T19:37:30 IST" duration-ms="3694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAndupdateResume -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Tests.LoginAutomation@689604d9]" started-at="2025-02-02T19:18:58 IST" name="tearDown" finished-at="2025-02-02T19:19:01 IST" duration-ms="3360" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Tests.LoginAutomation@689604d9]" started-at="2025-02-02T19:37:30 IST" name="tearDown" finished-at="2025-02-02T19:37:34 IST" duration-ms="3353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
