@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite>
+<suite name="NaukriAutomation" verbose="1">
+  <test thread-count="1" name="Test1">
+    <classes>
+      <class name="com.qa.Tests.LoginAutomation">
+            <methods>
+               <include name="LoginAndupdateResume" />
+            </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
