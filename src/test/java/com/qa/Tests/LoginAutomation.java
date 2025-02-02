@@ -1,6 +1,7 @@
 package com.qa.Tests;
 
 
+import java.io.File;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
@@ -31,6 +32,7 @@ public class LoginAutomation
 	@Test()
 	public void LoginAndupdateResume()
 	{
+		System.out.println("user.dir");
 		
 		 driver.findElement(By.id("login_Layer")).click();
 		   
@@ -45,8 +47,8 @@ public class LoginAutomation
 		   driver.findElement(By.xpath("//button[text()='Login']")).click();
 		   driver.findElement(By.linkText("View profile")).click();
 		   
-		   driver.findElement(By.id("attachCV")).
-		   sendKeys("C:/Users/radhi/OneDrive/Desktop/Radhika/RadhikaSonar_DataAnalyst.pdf");
+		   File file = new File("src/main/resources/Files/RadhikaSonar_DataAnalyst.pdf");
+		   driver.findElement(By.id("attachCV")).sendKeys(file.getAbsolutePath());
 		   
 		   
 		   WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -64,8 +66,9 @@ public class LoginAutomation
 	}
 	
 	@AfterTest()
-	public void tearDown()
+	public void tearDown() throws InterruptedException
 	{
+		Thread.sleep(3000);
 		   driver.quit();
 	}
 
