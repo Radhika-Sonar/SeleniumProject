@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
@@ -22,6 +23,8 @@ public class LoginAutomation
 	@BeforeTest()
 	public void setup()
 	{
+		  // ChromeOptions options = new ChromeOptions();
+		  // options.addArguments("--headless");
 		   driver = new ChromeDriver();
 		   driver.manage().window().maximize();
 		   driver.get("https://www.naukri.com/");
